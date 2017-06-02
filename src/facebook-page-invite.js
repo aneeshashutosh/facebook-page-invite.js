@@ -146,7 +146,7 @@ javascript: (function() {
         var inputs = document.getElementsByClassName(elementId);
         for (var i = 0; i < max_invites; i++) {
             inputs[i].click();
-            await sleep(getRandomBetween(1000, 3000));
+            await sleep(getRandomBetween(5000, 8000));
         }
     }
 
